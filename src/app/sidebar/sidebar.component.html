@@ -1,0 +1,82 @@
+<aside class="main-sidebar  elevation-4 background">
+    <!-- Brand Logo -->
+    <span  class="brand-link headlogo">
+      <img  src="../../assets/โจ๊ก.jpg" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">WHALE CONGEE</span>
+    </span>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img  class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a  class="d-block fontname"></a>
+        </div>
+      </div> -->
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+       
+        
+        
+               <li class="nav-item">
+                <a routerLink="/bill" class="nav-link">
+                  
+                  <i class="fas fa-file-invoice-dollar nav-icon"></i>
+                  <p class="btn">Bill</p>
+                </a>
+              </li>
+           
+         
+          <li class="nav-item has-treeview ">
+            <a  class="nav-link">
+              <i class="fas fa-user nav-icon iconcolor"></i>
+              <p class="btn">
+               MANAGER
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a routerLink="/sales" class="nav-link">
+                
+                  <i class="fas fa-chart-line nav-icon"></i>
+                  <p class="iconcolor">Sales</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/stock" class="nav-link">
+                  <i class=" iconcolor fas fa-table nav-icon iconcolor"></i>
+                  <p class="iconcolor">Stock</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/account" class="nav-link">
+                  
+                  <i class="fas fa-user-circle nav-icon"></i>
+                  <p class="iconcolor">account</p>
+                </a>
+              </li>
+             
+            </ul>
+          </li>
+        
+         
+          
+        
+        
+         
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+  <router-outlet></router-outlet>
